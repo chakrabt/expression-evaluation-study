@@ -1,0 +1,111 @@
+Compiled from "Test.kt"
+public final class TestKt {
+  public static final void main();
+    Code:
+       0: iconst_5
+       1: istore_0
+       2: bipush        9
+       4: istore_1
+       5: new           #8                  // class java/lang/StringBuilder
+       8: dup
+       9: invokespecial #11                 // Method java/lang/StringBuilder."<init>":()V
+      12: ldc           #13                 // String Before: k =
+      14: invokevirtual #17                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      17: iload_0
+      18: invokevirtual #20                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+      21: ldc           #22                 // String  j =
+      23: invokevirtual #17                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      26: iload_1
+      27: invokevirtual #20                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+      30: invokevirtual #26                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+      33: getstatic     #32                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      36: swap
+      37: invokevirtual #38                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+      40: iload_0
+      41: iload_0
+      42: iinc          0, 1
+      45: iinc          1, 1
+      48: iload_1
+      49: isub
+      50: iload_0
+      51: iadd
+      52: iadd
+      53: istore_0
+      54: new           #8                  // class java/lang/StringBuilder
+      57: dup
+      58: invokespecial #11                 // Method java/lang/StringBuilder."<init>":()V
+      61: ldc           #40                 // String After:  k =
+      63: invokevirtual #17                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      66: iload_0
+      67: invokevirtual #20                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+      70: ldc           #22                 // String  j =
+      72: invokevirtual #17                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      75: iload_1
+      76: invokevirtual #20                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+      79: invokevirtual #26                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+      82: getstatic     #32                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      85: swap
+      86: invokevirtual #38                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+      89: invokestatic  #43                 // Method testCase2:()V
+      92: invokestatic  #46                 // Method testCase3:()V
+      95: return
+
+  public static final void testCase2();
+    Code:
+       0: bipush        10
+       2: istore_0
+       3: iload_0
+       4: iinc          0, 1
+       7: iinc          0, 1
+      10: iload_0
+      11: iadd
+      12: istore_0
+      13: new           #8                  // class java/lang/StringBuilder
+      16: dup
+      17: invokespecial #11                 // Method java/lang/StringBuilder."<init>":()V
+      20: ldc           #51                 // String Test 2: x =
+      22: invokevirtual #17                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      25: iload_0
+      26: invokevirtual #20                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+      29: invokevirtual #26                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+      32: getstatic     #32                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      35: swap
+      36: invokevirtual #38                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+      39: return
+
+  public static final void testCase3();
+    Code:
+       0: iconst_5
+       1: istore_0
+       2: iconst_5
+       3: istore_1
+       4: iload_0
+       5: iinc          1, 1
+       8: iload_1
+       9: iload_0
+      10: iinc          0, 1
+      13: iadd
+      14: iadd
+      15: istore_0
+      16: new           #8                  // class java/lang/StringBuilder
+      19: dup
+      20: invokespecial #11                 // Method java/lang/StringBuilder."<init>":()V
+      23: ldc           #54                 // String Test 3: a =
+      25: invokevirtual #17                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      28: iload_0
+      29: invokevirtual #20                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+      32: ldc           #56                 // String  b =
+      34: invokevirtual #17                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+      37: iload_1
+      38: invokevirtual #20                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+      41: invokevirtual #26                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+      44: getstatic     #32                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      47: swap
+      48: invokevirtual #38                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+      51: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: invokestatic  #61                 // Method main:()V
+       3: return
+}
