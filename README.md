@@ -30,7 +30,7 @@ At first glance, expressions like `k += k++ - ++j + k;` seem merely convoluted�
 ---
 
 ## Repository Structure
-
+```
 expression-evaluation-study/ 
 ├── src/
     │ 
@@ -50,7 +50,7 @@ expression-evaluation-study/
     ├── performance/ # Performance benchmark data 
     │ 
     └── static-analysis/ # Tool outputs └── README.md
-
+```
 ---
 
 ## Quick Start
