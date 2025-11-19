@@ -1,7 +1,6 @@
 # Understanding Side Effects in Expression Evaluation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXX)
-*(DOI will be added after Zenodo archiving)*
+[![DOI](https://zenodo.org/badge/1099554708.svg)](https://doi.org/10.5281/zenodo.17646819)
 
 This repository contains all experimental materials for the paper:
 
