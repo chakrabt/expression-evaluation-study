@@ -1,0 +1,28 @@
+Nov 06, 2025 2:15:47 PM net.sourceforge.pmd.RuleSetFactory parseRuleSetReferenceNode
+WARNING: The RuleSet rulesets/java/design.xml has been deprecated and will be removed in PMD 7.0.0
+Nov 06, 2025 2:15:47 PM net.sourceforge.pmd.RuleSetFactory parseRuleSetReferenceNode
+WARNING: The RuleSet rulesets/java/controversial.xml has been deprecated and will be removed in PMD 7.0.0
+Nov 06, 2025 2:15:47 PM net.sourceforge.pmd.PMD encourageToUseIncrementalAnalysis
+WARNING: This analysis could be faster, please consider using Incremental Analysis: https://pmd.github.io/pmd-6.55.0/pmd_userdocs_incremental_analysis.html
+Nov 06, 2025 2:15:47 PM net.sourceforge.pmd.processor.AbstractPMDProcessor removeBrokenRules
+WARNING: Removed misconfigured rule: LoosePackageCoupling  cause: No packages or classes specified
+experiments/java/Test.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+experiments/java/Test.java:1:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+experiments/java/Test.java:1:	ShortClassName:	Avoid short class names like Test
+experiments/java/Test.java:2:	MethodArgumentCouldBeFinal:	Parameter 'args' is not assigned and could be declared final
+experiments/java/Test.java:3:	ShortVariable:	Avoid variables with short names like j
+experiments/java/Test.java:3:	ShortVariable:	Avoid variables with short names like k
+experiments/java/Test.java:3:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+experiments/java/Test.java:4:	SystemPrintln:	System.out.println is used
+experiments/java/Test.java:6:	SystemPrintln:	System.out.println is used
+experiments/java/Test.java:13:	CommentDefaultAccessModifier:	To avoid mistakes add a comment at the beginning of the testCase2 method if you want a default access modifier
+experiments/java/Test.java:13:	DefaultPackage:	Use explicit scoping instead of the default package private level
+experiments/java/Test.java:14:	ShortVariable:	Avoid variables with short names like x
+experiments/java/Test.java:16:	SystemPrintln:	System.out.println is used
+experiments/java/Test.java:19:	CommentDefaultAccessModifier:	To avoid mistakes add a comment at the beginning of the testCase3 method if you want a default access modifier
+experiments/java/Test.java:19:	DefaultPackage:	Use explicit scoping instead of the default package private level
+experiments/java/Test.java:20:	ShortVariable:	Avoid variables with short names like a
+experiments/java/Test.java:20:	ShortVariable:	Avoid variables with short names like b
+experiments/java/Test.java:20:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+experiments/java/Test.java:22:	SystemPrintln:	System.out.println is used
+LoosePackageCoupling	-	No packages or classes specified
