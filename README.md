@@ -33,23 +33,16 @@ At first glance, expressions like `k += k++ - ++j + k;` seem merely convoluted�
 ```
 expression-evaluation-study/ 
 ├── src/
-    │ 
-    ├── java/ # Java test programs
-    │
-    ├── cpp/ # C++ test programs 
-    │ 
-    ├── kotlin/ # Kotlin test programs 
-    │ 
-    └── python/ # Python test programs 
+│    ├── java/ # Java test programs
+│    ├── cpp/ # C++ test programs 
+│    ├── kotlin/ # Kotlin test programs 
+│    └── python/ # Python test programs 
 ├── data/ 
-    │ 
-    ├── bytecode/ # Bytecode disassemblies 
-    │ 
-    ├── assembly/ # Assembly code listings 
-    │ 
-    ├── performance/ # Performance benchmark data 
-    │ 
-    └── static-analysis/ # Tool outputs └── README.md
+│     ├── bytecode/ # Bytecode disassemblies 
+│     ├── assembly/ # Assembly code listings 
+│     ├── performance/ # Performance benchmark data 
+│     └── static-analysis/ # Tool outputs
+└── README.md
 ```
 ---
 
