@@ -1,0 +1,16 @@
+Performance Benchmark - 10M iterations
+==================================================
+Warming up...
+
+Running benchmarks...
+
+Complex expression   : 1 ns/iteration
+Simple expression    : 1 ns/iteration
+Separated statements : 1 ns/iteration
+
+==================================================
+SUMMARY
+==================================================
+Complex:   1 ns (baseline)
+Simple:    1 ns (100% of complex)
+Separated: 1 ns (100% of complex)
